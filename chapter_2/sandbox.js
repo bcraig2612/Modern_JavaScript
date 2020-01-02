@@ -202,7 +202,7 @@
 
 
 // *** ARRAYS ***
-let ninjas = [ 'Brandon', 'Ethan', 'BillyBoy' ];
+// let ninjas = [ 'Brandon', 'Ethan', 'BillyBoy' ];
 // console.log(ninjas);
 // console.log(ninjas[1]);
 // console.log(ninjas[0]);
