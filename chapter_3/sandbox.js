@@ -148,24 +148,24 @@
 
 
 // ** VARIABLES * BLOCK SCOPE **
-let age = 30; // GLOBAL SCOPE
-let name = 'Brandon'; // GLOBAL SCOPE
-console.log('Before the code blocks: ', age, name );
+// let age = 30; // GLOBAL SCOPE
+// let name = 'Brandon'; // GLOBAL SCOPE
+// console.log('Before the code blocks: ', age, name );
 
-if(true) {
+// if(true) {
     // You can re-declare using let within the code block. It will only be accesible within the block.
     // This is LOCAL SCOPE
-  let age = 40;
-  let name = 'Shaun';
-    console.log( 'Inside of the code block: ', age, name );
+//   let age = 40;
+//   let name = 'Shaun';
+    // console.log( 'Inside of the code block: ', age, name );
 
- if(true) {
+//  if(true) {
      // Only accesible withing this 2nd block.
      // LOCAL SCOPE
-     let age = 50; 
-     let name = 'Bill';
-     console.log( 'Inside the 2nd code block: ', age, name );
- }   
-}
+    //  let age = 50; 
+    //  let name = 'Bill';
+    //  console.log( 'Inside the 2nd code block: ', age, name );
+//  }   
+// }
 // The GLOBAL SCOPE is accessed because the other instances are LOCAL, within the code blocks using either LET or CONST
-console.log( 'After the code blocks: ', age, name );
+// console.log( 'After the code blocks: ', age, name );
