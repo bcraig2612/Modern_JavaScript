@@ -88,24 +88,24 @@
 
 // ************MATH OBJECT************
 
-console.log(Math);
-console.log(Math.PI);
-console.log(Math.E);
+// console.log(Math);
+// console.log(Math.PI);
+// console.log(Math.E);
 
-const area = 7.7;
+// const area = 7.7;
 
-console.log(Math.round(area)); // 8
-console.log(Math.floor(area)); // 7
-console.log(Math.ceil(area)); // 8
-console.log(Math.trunc(area)); // 7
+// console.log(Math.round(area)); // 8
+// console.log(Math.floor(area)); // 7
+// console.log(Math.ceil(area)); // 8
+// console.log(Math.trunc(area)); // 7
 
 // RANDOM NUMBERS
 // Getting a random number between 0 - 1
-const random = Math.random();
+// const random = Math.random();
 
-console.log(random);
+// console.log(random);
 // Getting a random number between 1 - 100
-console.log(Math.round(random * 100));
+// console.log(Math.round(random * 100));
 
 // *************PRIMITIVE vs. REFERENCE TYPES************
 // Primitive Types: numbers, strings, Booleans, null, undefined, symbols
@@ -114,18 +114,18 @@ console.log(Math.round(random * 100));
 // references are stored in the heap. slower but larger.
 
 // Primitives
-let scoreOne = 50;
-let scoreTwo = scoreOne;
-console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`); // scoreOne: 50 scoreTwo: 50
+// let scoreOne = 50;
+// let scoreTwo = scoreOne;
+// console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`); // scoreOne: 50 scoreTwo: 50
 
-scoreOne = 100;
-console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`); // scoreOne: 100 scoreTwo: 50
+// scoreOne = 100;
+// console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`); // scoreOne: 100 scoreTwo: 50
 
 //References
 
-const userOne = { name: "Brandon", age: 24 };
-const userTwo = userOne;
-console.log(userOne, userTwo); // {name: 'Brandon', age: 24} {name: 'Brandon', age: 24}
+// const userOne = { name: "Brandon", age: 24 };
+// const userTwo = userOne;
+// console.log(userOne, userTwo); // {name: 'Brandon', age: 24} {name: 'Brandon', age: 24}
 
-userOne.age = 25;
-console.log(userOne, userTwo); // {name: 'Brandon', age: 25} {name: 'Brandon', age: 25}
+// userOne.age = 25;
+// console.log(userOne, userTwo); // {name: 'Brandon', age: 25} {name: 'Brandon', age: 25}
