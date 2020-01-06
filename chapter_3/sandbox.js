@@ -1,4 +1,4 @@
-// *** CONTROL FLOW ***
+// ****************CONTROL FLOW****************
 
 // ** FOR LOOP **
 // for(let i = 0; i < 5; i++){
@@ -9,20 +9,19 @@
 // const names = [ 'Bob', 'Nick', 'Ted' ];
 
 // for(let i = 0; i < names.length; i++) {
-    // console.log(i, names[i]);
-    // let html = `<div> ${names[i]} </div>`;
-    // console.log(html);
+// console.log(i, names[i]);
+// let html = `<div> ${names[i]} </div>`;
+// console.log(html);
 // }
 
+// ****************WHILE LOOPS****************
 
-// ** WHILE LOOPS **
 // let i = 0;
 
 // while( i < 5 ) {
-    // console.log('in loop: ', i);
-    // i++;
+// console.log('in loop: ', i);
+// i++;
 // }
-
 
 // const names = ['Bob', 'Nick', 'Ted'];
 // let i = 0;
@@ -32,7 +31,8 @@
 //     i++;
 // }
 
-// ** DO WHILE LOOPS **
+// ****************DO WHILE LOOPS****************
+
 // let i = 0;
 
 // do{
@@ -40,8 +40,8 @@
 //     i++;
 // } while( i < 5 );
 
+// ****************IF STATEMENTS****************
 
-// ** IF STATEMENTS **
 // const age = 25;
 
 // if(age > 20) {
@@ -60,8 +60,8 @@
 //     console.log('That password is long enough!');
 // }
 
+// ****************ELSE & ELSE IF****************
 
-// ** ELSE & ELSE IF **
 // const password = 'p@ss';
 
 // if( password.length >= 12 ) {
@@ -72,8 +72,8 @@
 //     console.log('That password is not long enough.');
 // }
 
+// ****************LOGICAL OPERATORS ( OR --> || ) ( AND --> && )****************
 
-// ** LOGICAL OPERATORS ( OR --> || ) ( AND --> && ) **
 // const password = 'ps@s12111ssss';
 
 // if(password.length >= 12 && password.includes('@')) {
@@ -84,8 +84,8 @@
 //     console.log('That password is not going to cut it...');
 // }
 
+// ****************LOGICAL NOT ( ! )****************
 
-// ** LOGICAL NOT ( ! )**
 // let user = false;
 
 // if( !user ){
@@ -96,17 +96,18 @@
 // const scores = [ 50, 25, 0, 30, 100, 20, 10 ];
 
 // for( let i = 0; i < scores.length; i++ ) {
-    // if(scores[i] === 0) { 
-        // continue; // it doesn't log 0 to the console. it just continues to the next loop.
-    // }
-    // console.log('Your Score: ', scores[i]);
-    // if(scores[i] === 100) {
-        // console.log('Congrats, you got the top score!');
-        // break; // once a score of 100 is reached. we don't continue looping. 
-    // }
+// if(scores[i] === 0) {
+// continue; // it doesn't log 0 to the console. it just continues to the next loop.
+// }
+// console.log('Your Score: ', scores[i]);
+// if(scores[i] === 100) {
+// console.log('Congrats, you got the top score!');
+// break; // once a score of 100 is reached. we don't continue looping.
+// }
 // }
 
-// ** SWITCH STATEMENTS **
+// ****************SWITCH STATEMENTS****************
+
 // const grade = 'A';
 
 // switch(grade) {
@@ -146,26 +147,26 @@
 
 // }
 
+// ****************VARIABLES * BLOCK SCOPE****************
 
-// ** VARIABLES * BLOCK SCOPE **
 // let age = 30; // GLOBAL SCOPE
 // let name = 'Brandon'; // GLOBAL SCOPE
 // console.log('Before the code blocks: ', age, name );
 
 // if(true) {
-    // You can re-declare using let within the code block. It will only be accesible within the block.
-    // This is LOCAL SCOPE
+// You can re-declare using let within the code block. It will only be accesible within the block.
+// This is LOCAL SCOPE
 //   let age = 40;
 //   let name = 'Shaun';
-    // console.log( 'Inside of the code block: ', age, name );
+// console.log( 'Inside of the code block: ', age, name );
 
 //  if(true) {
-     // Only accesible withing this 2nd block.
-     // LOCAL SCOPE
-    //  let age = 50; 
-    //  let name = 'Bill';
-    //  console.log( 'Inside the 2nd code block: ', age, name );
-//  }   
+// Only accessible withing this 2nd block.
+// LOCAL SCOPE
+//  let age = 50;
+//  let name = 'Bill';
+//  console.log( 'Inside the 2nd code block: ', age, name );
+//  }
 // }
 // The GLOBAL SCOPE is accessed because the other instances are LOCAL, within the code blocks using either LET or CONST
 // console.log( 'After the code blocks: ', age, name );
