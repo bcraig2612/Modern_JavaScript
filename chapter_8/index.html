@@ -4,7 +4,133 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
     <title>Section 8: Project - Interactive Ninja Quiz</title>
   </head>
-  <body></body>
+  <body>
+    <!-- top section -->
+    <div class="intro py-3 bg-white text-center">
+      <div class="container">
+        <h2 class="text-info display-3 my-4">The Office Trivia</h2>
+      </div>
+    </div>
+
+    <!-- quiz section -->
+    <div class="quiz py-4 bg-info">
+      <div class="container">
+        <h2 class="my-5 text-white">On with the questions...</h2>
+
+        <form class="quiz-form text-light">
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              1. In Season 1 Episode 1, who started their first day at Dunder
+              Mifflin Scranton?
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q1" value="A" checked />
+              <label class="form-check-label"> Ryan Howard </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q1" value="B" />
+              <label class="form-check-label"> Erin Hannon </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q1" value="C" />
+              <label class="form-check-label"> Jim Halpert </label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              2. In Season 1 Episode 2, what famous comedian's stand up routine
+              does Michael imitate?
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q2" value="A" checked />
+              <label class="form-check-label"> Robin Williams </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q2" value="B" />
+              <label class="form-check-label"> Chris Rock </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q2" value="C" />
+              <label class="form-check-label"> George Carlin </label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              3. In Season 1 Episode 3, which of these is NOT one of Jim and
+              Pam's made up diseases?
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q3" value="A" checked />
+              <label class="form-check-label"> Hot Dog Fingers </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q3" value="B" />
+              <label class="form-check-label">
+                Spontaneous Dental Hydroplosion
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q3" value="C" />
+              <label class="form-check-label"> Hair Cancer </label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              4. In Season 1 Episode 4, how much money does Michael donate to
+              Oscar's nephew's charity, not realizing it is a walk-a-thon and
+              the amount is per mile?
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q4" value="A" checked />
+              <label class="form-check-label"> $40 </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q4" value="B" />
+              <label class="form-check-label">
+                $25
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q4" value="C" />
+              <label class="form-check-label"> $10 </label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              5. In Season 1 Episode 5, what small appliance of Pam's breaks
+              down? (It was given to her at her engagement party three years
+              earlier)
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q5" value="A" checked />
+              <label class="form-check-label"> Microwave </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q5" value="B" />
+              <label class="form-check-label">
+                Toaster
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q5" value="C" />
+              <label class="form-check-label"> Toaster Oven </label>
+            </div>
+          </div>
+          <div class="text-center">
+            <input type="submit" class="btn btn-light text-info" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
 </html>
