@@ -42,16 +42,6 @@ getTodos("todos/todos.json")
     console.log("promise rejected:", error);
   });
 
-// getTodos("todos/todos.json", (error, data) => {
-//   console.log(data);
-//   getTodos("todos/todos2.json", (error, data) => {
-//     console.log(data);
-//     getTodos("todos/todos3.json", (error, data) => {
-//       console.log(data);
-//     });
-//   });
-// });
-
 // *** PROMISE EXAMPLE ***
 
 // const getSomething = () => {
