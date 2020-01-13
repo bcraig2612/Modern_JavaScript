@@ -6,12 +6,14 @@
         "applebee",
         "applebee's",
         "appspot",
+        "assets",
         "b",
         "bcraig",
         "bgdady",
         "bixing",
         "bowser",
         "boxsand",
+        "bundle",
         "chatrooms",
         "cp",
         "crossorigin",
@@ -19,6 +21,7 @@
         "destructure",
         "destructured",
         "devbrandoncraig",
+        "distt",
         "dunder",
         "dundie",
         "everrrrr",
@@ -40,6 +43,7 @@
         "j",
         "javascript",
         "jf",
+        "js",
         "kayden",
         "kaylee",
         "kaypink",
@@ -59,6 +63,7 @@
         "nathen",
         "nums",
         "oy",
+        "peachpuff",
         "pegerhosen",
         "pm",
         "qv",
@@ -84,5 +89,6 @@
         "zdmz",
         "zj",
         "zmlp"
-    ]
+    ],
+    "git.ignoreLimitWarning": true
 }
